@@ -7,41 +7,13 @@ This repository contains all measurements, scripts, and analysis notes for Assig
 
 Folder Structure
 /Assignment1
-    /data_raw/          - Unprocessed recordings and instrument measurements
-    /data_processed/    - Cleaned files, normalized signals, FFT outputs
-    analysis_notebook/  - Scripts or notebooks used for processing
-    figures/            - Exported plots for the report
-    README_Assignment1.txt
+- Not Uploaded yet
 
 /Assignment2
-    /data_raw/          - Raw room impulse responses, mic sweeps, logs
-    /data_processed/    - Filtered signals, windowed IRs, RT calculations
-    analysis_notebook/  - Analysis code (Python and/or MATLAB)
+    /1 Shoebow/         - Data and setup for taks 1
+    /2 AirAbsortion/    - Data and setup for task 2
+    /3 Ark Room/        - Data and setup for task 3 and 4
+    Analaslytics/       - Data and Jypither notebook with all calculations
     figures/            - Plots of decay curves, spectrograms, frequency bands
     README_Assignment2.txt
 
-/common
-    utils/              - Shared helper functions
-    calibration/        - Mic calibration files, reference tones
-
-------------------------------------------------------------
-
-Assignment 1 – Summary
-Topic:
-Acoustic analysis of a musical instrument.
-
-Main tasks:
-- Record steady tones and transient sounds.
-- Extract spectral content using FFT.
-- Compare measured harmonics with theory.
-- Estimate inharmonicity, formants, and radiation tendencies.
-
-Data included:
-- Cleaned WAV recordings.
-- FFT magnitude spectra and peak lists.
-- Plots used in the final report.
-
-Reproduction:
-Open the notebook in /Assignment1/analysis_notebook. It loads the WAV files, applies windowing, calculates spectra, and generates all plots.
-
--------------------------------------------------------
