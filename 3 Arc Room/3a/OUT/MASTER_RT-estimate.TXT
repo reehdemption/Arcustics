@@ -1,0 +1,28 @@
+Settings = C:\CATT\Assignment 2\3 Arc Room\4\GEO.MD9
+PROJECT  = 3A
+MASTER   = MASTER.GEO
+
+The estimated RTs become:
+
+            125   250   500   1k    2k    4k    8k   16k 
+-------------------------------------------------------------------------
+Eyring :  0.579 0.378 0.318 0.303 0.353 0.407 0.406 0.276 s
+Sabine :  0.640 0.440 0.380 0.364 0.412 0.459 0.437 0.283 s
+T-30   :    1.07 0.871 0.944 0.790 0.715 0.667 0.516 0.282 s *)
+-------------------------------------------------------------------------
+<Abs>  :   18.3  26.6  30.8  32.0  27.8  23.4  18.9  14.5 %
+Volume : 138.9 m³   <Free path> :  2.92 m
+-------------------------------------------------------------------------
+Schröder frequency: 167 Hz
+-> Geometrical acoustics estimated from band : 500 Hz
+-------------------------------------------------------------------------
+*) from global ray-tracing
+
+** WARNING: The Sabine or Eyring RT may differ considerably from actual
+RT and T-30. It depends on the absorption/scattering distribution and
+if the hall shape is 'mixing' or not. Always compare the Sabine/Eyring
+values to the T-30 values (also from 'TUCT Predict SxR').
+Note that the model has to be constructed according to guide-lines
+or Volume and <Abs> will be in error and thereby also the Sabine
+and Eyring RT values above.
+

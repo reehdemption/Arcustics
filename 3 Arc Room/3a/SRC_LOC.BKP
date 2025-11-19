@@ -1,0 +1,24 @@
+;PROJECT=3a
+
+;========================
+; TUCT v2 source (use this)
+;========================
+SOURCE A0
+  DIRECTIVITY = "omni"
+  ; x   y    z   [m]
+  POS = 2.2  3.2  1.60
+  AIMANGLES = 0 0
+  Lp1m_a = Lp_voice_normal
+END
+
+; (No other sources for 3a runs)
+
+RETURN
+
+;========================
+; TUCT v1 fallback block
+;========================
+SOURCEDEFS
+; id   x    y    z     directivity   aim-x aim-y aim-z
+ A0   2.2  3.2  1.60      OMNI        2.8   3.2   1.60
+ Lp1m_a = Lp_voice_normal
