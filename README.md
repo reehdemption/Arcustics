@@ -7,7 +7,10 @@ This repository contains all measurements, scripts, and analysis notes for Assig
 
 Folder Structure
 /Assignment1
-- Not Uploaded yet
+    /Files              - All recordings
+    Analytics.ipynb     - Calculations 
+    
+
 
 /Assignment2
     /1 Shoebow/         - Data and setup for taks 1
